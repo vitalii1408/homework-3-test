@@ -62,13 +62,14 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--navy-blue);
 }
-.span {font-family: var(--second-family);
+.span {
+  font-family: var(--second-family);
 font-weight: 700;
 font-size: 18px;
 line-height: 1.16667;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--navy-blue);
+color: var(--iris);
 }
 
 
@@ -76,23 +77,46 @@ color: var(--navy-blue);
 }
 
 .header-nav-list {
+  
 }
 .header-nav-list-item {
+  font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;
 }
 .header-contacts {
 }
 .header-contacts-list {
 }
 .header-contacts-list-item {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--slate);
 }
 .main {
 }
 .hero {
+  background: #2e2f42;
 }
 .hero-title {
+  ont-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07143;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
 }
 .hero-btn {
+
 }
+
 .visually-hidden {
 }
 .features-list {
