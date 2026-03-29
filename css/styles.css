@@ -243,6 +243,7 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 .team {
+  background: #f4f4fd;
 }
 
 .team-title {
@@ -256,9 +257,16 @@ color: #2e2f42;
 }
 
 .team-list {
+  display: flex;
+  width: 100%; /* просто 100% */
+  gap: 24px;
+  padding-block: 120px;
+  max-width: 100%;
 }
 
 .team-list-item {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+background: #fff;
 }
 
 .team-list-item-title {
@@ -269,6 +277,8 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+padding-bottom: 8px;
+padding-top: 32px;
 }
 .team-list-item-position {
 font-family: "Roboto", sans-serif;
@@ -278,9 +288,12 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
+padding-bottom: 32px;
 }
 .portfolio {
+  padding-block: 120px;
 }
+
 .portfolio-title {
   font-family: "Roboto", sans-serif;
 font-weight: 700;
@@ -289,10 +302,25 @@ line-height: 1.11111;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+padding-bottom: 72px;
 }
 .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 .portfolio-list-item {
+}
+
+.portfolio-list-item-title-container{
+  padding-block: 32px;
+  padding-inline: 16px;
+  border-bottom: 1px solid #e7e9fc;
+border-left: 1px solid #e7e9fc;
+border-right: 1px solid #e7e9fc;
+padding: 32px 16px;
+width: 360px;
+height: 120px;
 }
 .portfolio-list-item-title {
   font-family: "Roboto", sans-serif;
@@ -301,6 +329,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+padding-bottom: 8px;
 }
 .portfolio-list-item-description {
   font-family: "Roboto", sans-serif;
@@ -311,7 +340,8 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 .footer {
-  background: #2e2f42;
+background: #2e2f42;
+padding-block: 100px;
 }
 
 .footer-logo-span {
@@ -332,7 +362,10 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #f4f4fd;
+display: block;
+padding-bottom: 16px;
 }
+
 .footer-text {
   font-family: "Roboto", sans-serif;
 font-weight: 400;
@@ -340,4 +373,5 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
+max-width: 264px;
 }
